@@ -41,7 +41,8 @@ xv, yv = np.meshgrid(x, y, indexing='ij')
 #
 height=0.14
 # collect assort parameters
-fig, ax = plt.subplots(nrows=1, ncols=2,figsize=(9,4),dpi=100)
+fig, ax = plt.subplots(nrows=1, ncols=2,figsize=(5,3),dpi=100)
+
 #
 params_n={"dt":0.00625,
   "sample_rate":20,
@@ -50,6 +51,7 @@ params_n={"dt":0.00625,
   "levels0":np.linspace(0,height,100),
   "levels1":np.linspace(0,height,100),
   "ax":ax,
+  "do_title":0
   }
 no_frames=all["no_frames"]
 #
