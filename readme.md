@@ -3,9 +3,7 @@
 
 This repo contains the Python code used in 
 
-    THE REGULARISED INERTIAL DEAN–KAWASAKI EQUATION:
-    DISCONTINUOUS GALERKIN APPROXIMATION AND MODELLING
-    FOR LOW-DENSITY REGIME; F. Cornalba & T. Shardlow
+-  The Regularised Inertial Dean–Kawasaki Equation:  Discontinuous Galerkin Approximation and Modelling for Low-Density Regime. F. Cornalba & T. Shardlow. [arXiv:2207.09989](https://arxiv.org/abs/2207.09989).
 
 RIDK is a stochastic partial differential equation (SPDE) arising in the fluctuating hydrodynamics of inertial particles. RIDK-FD is a Python implementation for numerically simulating RIDK. It uses a discontinuous Galerkin approximation-in-space and semi-implicit Euler-Maruyama approximation-in-time. The main functionality for discontinuous Galerkin is provided by [Firedrake](https://firedrakeproject.org/).
 
